@@ -13,6 +13,9 @@ module.exports = {
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
   icon: '/favicon.ico',
 
+  // Prefix for KV Storage
+  kvPrefix: process.env.KV_PREFIX || '',
+
   // The name of your website. Present alongside your icon.
   title: "未来技术实验室·科A共享服务器",
 
