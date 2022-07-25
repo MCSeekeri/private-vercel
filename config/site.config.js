@@ -7,20 +7,17 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'storage@sci-adv.cc',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'storage@mcseekeri.top',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
   icon: '/favicon.ico',
 
-  // Prefix for KV Storage
-  kvPrefix: process.env.KV_PREFIX || '',
-
   // The name of your website. Present alongside your icon.
-  title: "未来技术实验室·科A共享服务器",
+  title: "碧朋学园技术部·文件共享服务器",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/科A资源站',
+  baseDirectory: '/Public',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -52,12 +49,12 @@ module.exports = {
   // you provide. See the documentation for details.
   links: [
     {
-      name: '科A图书馆',
-      link: 'https://lib.sci-adv.cc',
+      name: 'Blog',
+      link: 'https://blog.mcseekeri.top',
     },
     {
-      name: '科A中文Wiki',
-      link: 'https://sci-adv.cc/wiki/%E9%A6%96%E9%A1%B5',
+      name: 'Status',
+      link: 'https://status.mcseekeri.top',
     },
   ],
 
